@@ -120,7 +120,7 @@ int main(int argc, char **argv) {
 
     // If no valid path is found, output an error message
     if (path_distance(best) == 0) {
-        fprintf(outfile, "No path found! Alissa is lost!\n");
+        fprintf(outfile, "No path found!\n");
     } else {
         // Print the best path found
         path_print(best, outfile, gr);
