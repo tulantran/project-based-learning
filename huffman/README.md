@@ -1,4 +1,4 @@
-This is project I did to learn Huffman coding!/n
+This is project I did to learn Huffman coding!\n
 It consists of two compileable programs, named huff and dehuff which losslessly compress and decompress text files respectively./n
 I omitted test scripts for functions in this repository but I have some and they pass obviously./n
 USAGE:/n
