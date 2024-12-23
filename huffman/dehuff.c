@@ -11,8 +11,7 @@
 
 #define OPT_ERR "dehuff:  unknown or poorly formatted option -%c\n"
 #define USAGE                                                                                      \
-    "Usage: dehuff -i infile -o outfile\n"                                                         \
-    "       dehuff -v -i infile -o outfile\n"                                                      \
+    "Usage: dehuff -i infile -o outfile\n"                                                         \                                                      \
     "       dehuff -h\n"
 
 Node *stack[100]; // Stack for constructing the Huffman tree
