@@ -28,8 +28,17 @@ tsp -i graph.txt -o result.txt -d
 4. **Edges**: Three integers per line: `start_vertex`, `end_vertex`, and `weight`.
 
 ### Example Input
-4 
-A B C D 5 0 1 10 1 2 15 2 3 20 3 0 25 0 2 30
+4
+A
+B
+C
+D
+5
+0 1 10
+1 2 15
+2 3 20
+3 0 25
+0 2 30
 
 
 
