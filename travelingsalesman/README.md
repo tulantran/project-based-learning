@@ -9,6 +9,11 @@ This program solves the Traveling Salesperson Problem (TSP) for a given graph, f
 - Flexible configuration through command-line options.
 
 ## Usage
+### Compilation
+To compile the program simply run:  
+`make`  
+This will build the `tsp` executable.
+
 ### Syntax
 tsp [options]
 
@@ -19,7 +24,8 @@ tsp [options]
 - `-h`: Displays help information and exits.
 
 ### Example
-tsp -i graph.txt -o result.txt -d
+`tsp -i graph.txt -o result.txt -d` 
+This runs the program with `graph.txt` as input, treats the graph as directed, and writes the results to `result.txt`.
 
 ## Input Format
 1. **Number of vertices**: Integer specifying the number of vertices.
