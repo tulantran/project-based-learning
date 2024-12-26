@@ -10,7 +10,7 @@ This program solves the Traveling Salesperson Problem (TSP) for a given graph, f
 
 ## Usage
 ### Syntax
-tsp [Options]
+tsp [options]
 
 ### Options
 - `-i <infile>`: Input file with the graph's vertices and edges. Defaults to `stdin` if not provided.
