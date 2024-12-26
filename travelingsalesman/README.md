@@ -48,8 +48,8 @@ D
 
 ## Sample Graphs
 This repository includes two sample graph files:
-- `sample_graph1.txt`
-- `sample_graph2.txt`
+- `bay.graph`
+- `surf.graph`
 
 These files demonstrate the input format expected by the program. You can use them to test the TSP solver or as templates for creating your own graphs.
 
