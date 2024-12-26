@@ -24,7 +24,7 @@ tsp [options]
 - `-h`: Displays help information and exits.
 
 ### Example
-`tsp -i graph.txt -o result.txt -d` 
+`tsp -i graph.txt -o result.txt -d`  
 This runs the program with `graph.txt` as input, treats the graph as directed, and writes the results to `result.txt`.
 
 ## Input Format
@@ -46,5 +46,10 @@ D
 3 0 25  
 0 2 30  
 
+## Sample Graphs
+This repository includes two sample graph files:
+- `sample_graph1.txt`
+- `sample_graph2.txt`
 
+These files demonstrate the input format expected by the program. You can use them to test the TSP solver or as templates for creating your own graphs.
 
