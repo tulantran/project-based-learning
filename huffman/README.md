@@ -30,7 +30,7 @@ Huffman coding is a lossless data compression algorithm. It uses variable-length
 - `-h`: Display usage information.
 
 ### Decompression
-dehuff -i <input_file> -o <output_file> dehuff -h
+dehuff -i <input_file> -o <output_file>   dehuff -h
 
 - `-i <input_file>`: Specify the compressed file to decompress.
 - `-o <output_file>`: Specify the output file for the decompressed data.
