@@ -29,6 +29,9 @@ Huffman coding is a lossless data compression algorithm. It uses variable-length
 `make`  
 - This will generate `huff` and `dehuff` executables
 
+To remove compiled binaries and intermediate files, run:  
+`make clean`
+
 ### Compression
 `huff -i <input_file> -o <output_file>` 
 
@@ -48,19 +51,13 @@ Huffman coding is a lossless data compression algorithm. It uses variable-length
 - `-h`: Display usage information.
 
 ## File Descriptions
+`huff.c`: Implements the compression process using Huffman coding. Handles input/output files, constructs the Huffman tree, generates prefix codes, and writes the compressed data.    
 
-### `huff.c`
-- Implements the compression process.
-- Key functions:
-  - `fill_histogram`: Reads the input file and computes the frequency of each symbol.
-  - `create_tree`: Constructs the Huffman tree based on the frequency histogram.
-  - `fill_code_table`: Generates binary codes for each symbol using the Huffman tree.
-  - `huff_compress_file`: Writes the compressed data to the output file.
-
-### `dehuff.c`
-- Implements the decompression process.
-- Key functions:
-  - `dehuff_decompress_file`: Reads the compressed file, reconstructs the Huffman tree, and writes the decompressed data to the output file.
-
+`dehuff.c`: Implements the decompression process. Reconstructs the Huffman tree, validates the compressed data, and restores the original file.  
+`bitreader.h` / `bitreader.c`: Provides utilities for reading binary data bit-by-bit from files.  
+`bitwriter.h` / `bitwriter.c`: Provides utilities for writing binary data bit-by-bit to files.  
+`node.h` / `node.c`: Defines the structure of a node in the Huffman tree and functions to manipulate nodes.  
+`pq.h` / `pq.c`: Implements a priority queue, used for building the Huffman tree.  
+`Makefile`: Automates the compilation process for the project, including huff and dehuff, and provides a make clean option for cleaning build artifacts.
 
 
