@@ -10,9 +10,12 @@ This program solves the Traveling Salesperson Problem (TSP) for a given graph, f
 
 ## Usage
 ### Compilation
-To compile the program simply run:  
+- To compile the program simply run:  
 `make`  
 This will build the `tsp` executable.
+
+- To remove compiled binaries and intermediate files, run:
+`make clean`
 
 ### Syntax
 tsp [options]
