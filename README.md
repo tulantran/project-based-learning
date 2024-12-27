@@ -2,7 +2,8 @@
 
 To enhance my C programming skills and deepen my understanding of algorithms, I developed several programming projects. Among them, these two stand out as the most enjoyable and educational. While the frameworks (function names and their input/output requirements) were provided, I implemented the core logic, explored working with data structures, and gained valuable insights into algorithmic problem-solving.
 
-Thank you for taking the time to review my work!
+Thanks you for taking time to review my work!
+
 ---
 
 ## **Projects**
