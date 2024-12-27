@@ -7,7 +7,7 @@ This project implements a Huffman encoding and decoding system using C. It consi
 
 ## Overview
 
-Huffman coding is a lossless data compression algorithm. It uses variable-length binary codes for encoding symbols, where frequently occurring symbols have shorter codes,4 and infrequently occurring symbols have longer codes. This implementation uses custom data structures like priority queues and binary trees to perform Huffman encoding and decoding.
+Huffman coding is a lossless data compression algorithm. It uses variable-length binary codes for encoding symbols, where frequently occurring symbols have shorter codes, and infrequently occurring symbols have longer codes. This implementation uses custom data structures like priority queues and binary trees to perform Huffman encoding and decoding.
 
 ## Features
 
@@ -26,7 +26,7 @@ Huffman coding is a lossless data compression algorithm. It uses variable-length
 
 ### Compilation
 - To compile both programs, simply use the provided Makefile:
-- `make`
+  `make`
 - This will generate `huff` and `dehuff` executables
 
 ### Compression
@@ -39,7 +39,8 @@ Huffman coding is a lossless data compression algorithm. It uses variable-length
 - `-h`: Display usage information.
 
 ### Decompression
-'dehuff -i <input_file> -o <output_file>'    
+'dehuff -i <input_file> -o <output_file>'  
+
 'dehuff -h'
 
 - `-i <input_file>`: Specify the compressed file to decompress.
