@@ -13,8 +13,4 @@ Thanks you for taking time to review my work!
 2. **Traveling Salesperson Problem (TSP)**: An optimization algorithm to find the shortest route through multiple cities.  
    Learn more in the [TSP README](./travelingsalesman/README.md).
 
-
-About This Repository
-This repository showcases my journey into C programming and algorithm development. While the framework (function names and thier input/output requirements) for these projects was provided , I implemented the core logic, learned how to work with data structures, and gained a deeper understanding of algorithmic problem-solving.
-
 Thanks again for stopping by!
