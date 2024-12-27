@@ -25,23 +25,23 @@ Huffman coding is a lossless data compression algorithm. It uses variable-length
 ## Usage
 
 ### Compilation
-- To compile both programs, simply use the provided Makefile:
-  `make`
+- To compile both programs, simply use the provided Makefile:  
+`make`  
 - This will generate `huff` and `dehuff` executables
 
 ### Compression
-`huff -i <input_file> -o <output_file>' 
+`huff -i <input_file> -o <output_file>` 
 
-'huff -h`  
+`huff -h`  
 
 - `-i <input_file>`: Specify the input file to compress.
 - `-o <output_file>`: Specify the output file for the compressed data.
 - `-h`: Display usage information.
 
 ### Decompression
-'dehuff -i <input_file> -o <output_file>'  
+`dehuff -i <input_file> -o <output_file>`  
 
-'dehuff -h'
+`dehuff -h`
 
 - `-i <input_file>`: Specify the compressed file to decompress.
 - `-o <output_file>`: Specify the output file for the decompressed data.
